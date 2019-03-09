@@ -8,11 +8,15 @@ package Problems;
  * EN: https://projecteuler.net/problem=2
  * RU: http://euler.jakumo.org/problems/view/2.html
  */
+
+
 public class Problem2 {
+    public static final int MAX_FIBONACCI = 4000000;
+
     public static void answer() {
         int i = 0;
         int sum = 0;
-        while (fibonachi(i) <= 4000000) {
+        while (fibonachi(i) <= MAX_FIBONACCI) {
             i++;
             if (fibonachi(i) % 2 != 0)
                 continue;
