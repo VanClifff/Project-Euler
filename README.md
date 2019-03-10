@@ -3,7 +3,7 @@
  
  
 <br>
-<details><summary>PROBLEMS AN DATE >>></summary>
+<details><summary>PROBLEMS AND DATE >>></summary>
 
 * Problem 1. 08.03.2019
 * Problem 2. =
