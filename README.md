@@ -1,5 +1,5 @@
- #####[EN: Project Euler ](https://projecteuler.net/problem)
- #####[RU: Проект Эйлера](http://euler.jakumo.org/problems.html)
+[<strong>EN: Project Euler </strong>](https://projecteuler.net/problem)<br/>
+[<strong>RU: Проект Эйлера</strong>](http://euler.jakumo.org/problems.html)
  
  
 <br>
