@@ -12,7 +12,7 @@ public class Problem_3 {
     public static final long NUMBER = 600851475143L;
 //    public static final long NUMBER = 13195L;
 
-    public static void answer_2() {
+    public static void answer() {
         long largestFact = 0;
         long[] factors = new long[2];
 
@@ -38,7 +38,7 @@ public class Problem_3 {
         System.out.println("Problem 3: " + largestFact);
     }
 
-    public static void answer_1() {
+    public static void answer_2() {
         Problem_3 problem = new Problem_3();
         long prime = NUMBER / 2;
         while (!problem.isPrime(prime) & !problem.isDivisor(NUMBER, prime) && prime > 0) {

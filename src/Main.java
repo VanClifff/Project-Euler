@@ -8,11 +8,13 @@ public class Main {
 
         Problems.Problem_2.answer();
 
-        Problems.Problem_3.answer_2();
+        Problems.Problem_3.answer();
 
         Problems.Problem_4.answer();
 
         Problems.Problem_5.answer();
+
+        Problems.Problem_6.answer();
 
        
 
