@@ -10,7 +10,7 @@ package Problems;
  */
 
 
-public class Problem2 {
+public class Problem_2 {
     public static final int MAX_FIBONACCI = 4000000;
 
     public static void answer() {

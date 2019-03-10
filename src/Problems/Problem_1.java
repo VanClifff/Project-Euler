@@ -8,7 +8,7 @@ package Problems;
  * RU: http://euler.jakumo.org/problems/view/1.html
  */
 
-public class Problem1 {
+public class Problem_1 {
 
 
     public static final int LIMIT = 1000;
