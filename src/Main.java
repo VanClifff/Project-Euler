@@ -16,6 +16,11 @@ public class Main {
 
         Problems.Problem_6.answer();
 
+        Problems.Problem_7.answer();
+
+        Problems.Problem_8.answer();
+
+
        
 
 
