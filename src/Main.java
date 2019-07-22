@@ -7,7 +7,7 @@ public class Main {
         Problem problems = new Problem();
 
 //        problems.showAll();
-        problems.showAnswer(0);
+        problems.showAnswer(10);
 
 
     }
