@@ -10,11 +10,11 @@ import java.util.Iterator;
  * RU: http://euler.jakumo.org/problems/view/4.html
  */
 
-public class Problem_4 {
+public class Problem_4 implements IProblem{
 
     public static final int MAX_NUMBER = 999;
 
-    public static void answer() {
+    public String answer() {
         //будем хранить максимальный полиндром
         int maxPoly = 1;
 
@@ -40,7 +40,8 @@ public class Problem_4 {
 
         }
 
-        System.out.println("Problem 4: " + maxPoly);
+//        System.out.println("Problem 4: " + maxPoly);
+        return String.valueOf(maxPoly);
 
     }
 

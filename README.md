@@ -5,17 +5,18 @@
 <br>
 <details><summary>PROBLEMS AND DATE >>></summary>
 
-* Problem 1. 08.03.2019
+* Problem 1. 3.08.2019
 * Problem 2. =
 
-* Problem 3. 09.03.2019
+* Problem 3. 3.09.2019
 * problem 4. =
 
-* problem 5. 10.03.2019
+* problem 5. 3.10.2019
 * problem 6. =
 
-* problem 8. 16.03.2019
+* problem 8. 3.16.2019
 
+* problem 9. 7.22.2019
 
 </details>
 

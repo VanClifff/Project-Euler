@@ -14,13 +14,14 @@ package Problems;
  * RU: http://euler.jakumo.org/problems/view/6.html
  */
 
-public class Problem_6 {
+public class Problem_6 implements IProblem{
 
     public static final int LIMIT = 100;
 
-    public static void answer() {
+    public String answer() {
 
-        System.out.println("Problem 6: " + (getSqrSum() - getSumSqr()));
+//        System.out.println("Problem 6: " + (getSqrSum() - getSumSqr()));
+        return String.valueOf(getSqrSum() - getSumSqr());
     }
 
     //The sum of the squares

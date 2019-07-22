@@ -8,12 +8,12 @@ package Problems;
  * RU: http://euler.jakumo.org/problems/view/1.html
  */
 
-public class Problem_1 {
+public class Problem_1 implements IProblem{
 
 
     public static final int LIMIT = 1000;
 
-    public static void answer() {
+    public String answer() {
 
         int sum = 0;
         for (int i = 3; i < LIMIT; i++) {
@@ -21,6 +21,7 @@ public class Problem_1 {
                 sum += i;
 
         }
-        System.out.println("Problem 1: " + sum);
+//        System.out.println("Problem 1: " + sum);
+        return String.valueOf(sum);
     }
 }

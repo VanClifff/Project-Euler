@@ -9,14 +9,13 @@ package Problems;
  * RU: http://euler.jakumo.org/problems/view/5.html
  */
 
-public class Problem_5 {
+public class Problem_5 implements IProblem {
     public static final int LIMIT = 20;
 
-    public static void answer() {
+    public String answer() {
 
         //общее произведение
         int divisible = 1;
-
 
 
         //перебор всех цифр дл LIMIT
@@ -40,9 +39,9 @@ public class Problem_5 {
             while (j > 1) {
 
                 //если делится без остатка на делитель, то делим исходные числа и проверяем снова
-                if (checkNumb%j==0 && checkDivisible%j==0){
-                    checkNumb/=j;
-                    checkDivisible/=j;
+                if (checkNumb % j == 0 && checkDivisible % j == 0) {
+                    checkNumb /= j;
+                    checkDivisible /= j;
                     j = checkNumb;
                     continue;
                 }
@@ -52,12 +51,12 @@ public class Problem_5 {
             }
 
             //умножаем число на НОД
-            divisible*=checkNumb;
+            divisible *= checkNumb;
 
         }
 
-        System.out.println("Problem 5: "+divisible);
-
+//        System.out.println("Problem 5: "+divisible);
+        return String.valueOf(divisible);
     }
 
 }

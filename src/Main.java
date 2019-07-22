@@ -1,28 +1,13 @@
-import Problems.Problem_4;
+import Problems.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Problems.Problem_1.answer();
+        Problem problems = new Problem();
 
-        Problems.Problem_2.answer();
-
-        Problems.Problem_3.answer();
-
-        Problems.Problem_4.answer();
-
-        Problems.Problem_5.answer();
-
-        Problems.Problem_6.answer();
-
-        Problems.Problem_7.answer();
-
-        Problems.Problem_8.answer();
-
-
-       
-
+//        problems.showAll();
+        problems.showAnswer(0);
 
 
     }

@@ -8,11 +8,11 @@ package Problems;
  * RU: http://euler.jakumo.org/problems/view/3.html
  */
 
-public class Problem_3 {
+public class Problem_3 implements IProblem{
     public static final long NUMBER = 600851475143L;
 //    public static final long NUMBER = 13195L;
 
-    public static void answer() {
+    public String answer() {
         long largestFact = 0;
         long[] factors = new long[2];
 
@@ -35,7 +35,8 @@ public class Problem_3 {
                 }
             }
         }
-        System.out.println("Problem 3: " + largestFact);
+//        System.out.println("Problem 3: " + largestFact);
+        return String.valueOf(largestFact);
     }
 
     public static void answer_2() {

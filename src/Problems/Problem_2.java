@@ -10,10 +10,10 @@ package Problems;
  */
 
 
-public class Problem_2 {
+public class Problem_2 implements IProblem {
     public static final int MAX_FIBONACCI = 4000000;
 
-    public static void answer() {
+    public String answer() {
         int i = 0;
         int sum = 0;
         while (fibonachi(i) <= MAX_FIBONACCI) {
@@ -23,8 +23,8 @@ public class Problem_2 {
             sum += fibonachi(i);
         }
 
-        System.out.println("Problem 2: " + sum);
-
+//        System.out.println("Problem 2: " + sum);
+        return String.valueOf(sum);
     }
 
     static int fibonachi(int n) {
