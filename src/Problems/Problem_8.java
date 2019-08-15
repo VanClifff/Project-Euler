@@ -5,8 +5,8 @@ package Problems;
  * <p>
  * Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
  * <p>
- * EN: https://projecteuler.net/problem=1
- * RU: http://euler.jakumo.org/problems/view/1.html
+ * EN: https://projecteuler.net/problem=8
+ * RU: http://euler.jakumo.org/problems/view/8.html
  */
 
 public class Problem_8 implements IProblem{
